@@ -1,4 +1,6 @@
 {
     "prettier.requireConfig": true,
-    "prettier.endOfLine": "auto"
+    "prettier.endOfLine": "auto",
+    "beautify.ignore": "",
+    "editor.formatOnSave" : true
 }
