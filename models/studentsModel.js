@@ -5,6 +5,9 @@ const studentSchema = new Schema({
 	name: String,
 	surname: String,
 	class: String,
+	photo: String,
+	email: { type: String },
+	phone: { type: String },
 	entry_year: String,
 	d_o_b: String,
 	parents_details: [

@@ -5,8 +5,10 @@ const nonTeachingSchema = new Schema({
 	name: { type: String },
 	surname: { type: String },
 	start_date: { type: String },
+	email: { type: String },
+	phone: { type: String },
 	salary: { type: String },
-	surname: { type: String },
+	photo: { type: String },
 	contract: { type: String },
 	job: String,
 });

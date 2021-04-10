@@ -4,9 +4,12 @@ const { Schema } = mongoose;
 const teacherSchema = new Schema({
 	name: { type: String },
 	surname: { type: String },
+	email: { type: String },
+	phone: { type: String },
 	classes: [String],
 	contract: { type: String },
 	subjects: [String],
+	photo: { type: String },
 	supervisor: { type: String },
 	no_on_duty: Number,
 });

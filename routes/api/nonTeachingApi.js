@@ -17,6 +17,7 @@ router.get('/:id', async (req, res) => {
 	console.log(req.params.id);
 });
 
+
 router.post('/create', async (req, res) => {
 	const obj = req.body;
 	if (obj) {
